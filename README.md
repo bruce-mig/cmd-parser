@@ -76,5 +76,5 @@ gcc -g main1.o -o main1.exe -L ./cmd-parser/ -lcli
 The first command compiles the `main1.c`to create object file `main1.o`. `–I` option tells compiler where to find header files included in `main1.c`.  
 The second command links our project with libcli library and create final executable – `main1.exe`. You can run this executable and play around the same default commands implemented. Also, use show help to get yourself familiar with the CLI. Try out `“?”, “.”, “/”` features. 
 
-See the figure below.
+<!-- See the figure below. -->
 <!-- ![main1](static/image.png) -->
