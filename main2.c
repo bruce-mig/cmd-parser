@@ -90,7 +90,7 @@ int main(int argc, char **argv) {
           * supposed to invoke application callback rouine. The CMDODE_SHOW_NODE
           * code is sent to application using which we find which command was
           * triggered, and accordingly what are expected leaf params we need to
-          * parse. More on this ater.*/
+          * parse.*/
          set_param_cmd_code(&node_name, CMDODE_SHOW_NODE);
 
          /*Implementing CMD2*/
