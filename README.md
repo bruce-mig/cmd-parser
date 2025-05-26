@@ -61,7 +61,7 @@ Refer to `testapp.c` for a usage example.
 <!-- For more detailed documentation, see the LinuxLikeCommandLineInterface.docx file included with the source code. -->
 
 
-## Compilation
+## Execution
 
 From the root of the project run `make` command.  
 
@@ -71,7 +71,7 @@ Run the executable using the `./exe  command.
 
 Inside the REPL, input `.` to show the available commands.
 
-### Example Output 
+### Example Outputs
 
 Show Help
 
