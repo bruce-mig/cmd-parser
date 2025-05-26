@@ -10,7 +10,7 @@
  *       Revision:  1.0
  *       Compiler:  gcc
  *
- *         Author:  BRUCE MIGERI, Software Developer (AS), bmigeri@gmail.com
+ *         Author:  BRUCE MIGERI, Software Developer (BM), bmigeri@gmail.com
  *
  *
  * =====================================================================================
@@ -28,7 +28,7 @@
 #define TERMINAL_NAME_SIZE CONS_INPUT_BUFFER_SIZE
 #define TLV_MAX_BUFFER_SIZE 1024
 #define POSSIBILITY_ARRAY_SIZE 10
-#define DEFAULT_DEVICE_NAME "tcp-ip-stack"
+#define DEFAULT_DEVICE_NAME "root@cmd-parser"
 #define MODE_CHARACTER "/"
 #define SUBOPTIONS_CHARACTER "?"
 #define CMD_EXPANSION_CHARACTER "."
