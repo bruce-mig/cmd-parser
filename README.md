@@ -45,7 +45,7 @@
 gcc your_app.c -lcli -o your_app
 ```
 
-See the provided Makefile for more details.)
+See the provided Makefile for more details.
 
 Refer to `testapp.c` for a usage example.
 
