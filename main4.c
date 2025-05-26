@@ -21,8 +21,7 @@ int validate_node_name(char *value) {
 int node_loopback_callback_handler(
     param_t *param, ser_buff_t *tlv_buf, /*This is the buffer in which all leaf
                                             values in the command are present*/
-    op_mode enable_or_disable) { /*This is meaningful for config commands, will
-                                    discuss later*/
+    op_mode enable_or_disable) { /*This is meaningful for config commands*/
    printf("%s() is called ...\n", __FUNCTION__);
 
    int cmd_code =
@@ -131,7 +130,7 @@ int main(int argc, char **argv) {
           * supposed to invoke application callback rouine. The CMDODE_SHOW_NODE
           * code is sent to application using which we find which command was
           * triggered, and accordingly what are expected leaf params we need to
-          * parse. More on this ater.*/
+          * parse.*/
          set_param_cmd_code(&node_name, CMDODE_SHOW_NODE);
 
          /*Implementing CMD2*/
@@ -200,8 +199,7 @@ int main(int argc, char **argv) {
                 * is supposed to invoke application callback rouine. This
                 * CMDODE_SHOW_NODE_LOOPBACK code is sent to application using
                 * which we find which command was triggered, and accordingly
-                * what are expected leaf params we need to parse. More on this
-                * ater.*/
+                * what are expected leaf params we need to parse. */
                set_param_cmd_code(&loopback_address, CMDODE_SHOW_NODE_LOOPBACK);
             }
          }
@@ -259,7 +257,7 @@ int main(int argc, char **argv) {
                                     param. Note that: config --> node -->
                                     node_name has been chained*/
          /* No cmd code registered with above command because it is
-          * incomeplete command*/
+          * incomplete command*/
 
          /*Implementing CMD3*/
 
@@ -328,8 +326,7 @@ int main(int argc, char **argv) {
                 * is supposed to invoke application callback rouine. This
                 * CMDODE_SHOW_NODE_LOOPBACK code is sent to application using
                 * which we find which command was triggered, and accordingly
-                * what are expected leaf params we need to parse. More on this
-                * ater.*/
+                * what are expected leaf params we need to parse*/
                set_param_cmd_code(&loopback_address,
                                   CMDODE_CONFIG_NODE_LOOPBACK);
             }

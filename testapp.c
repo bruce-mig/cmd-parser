@@ -10,7 +10,7 @@
  *       Revision:  1.0
  *       Compiler:  gcc
  *
- *         Author:  BRUCE MIGERI, Software Developer (AS), bmigeri@gmail.com
+ *         Author:  BRUCE MIGERI, Software Developer (BM), bmigeri@gmail.com
  *
  *
  * =====================================================================================
