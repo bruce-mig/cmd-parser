@@ -19,8 +19,7 @@ int validate_node_name(char *value) {
 int node_loopback_callback_handler(
     param_t *param, ser_buff_t *tlv_buf, /*This is the buffer in which all leaf
                                             values in the command are present*/
-    op_mode enable_or_disable) { /*This is meaningful for config commands, will
-                                    discuss later*/
+    op_mode enable_or_disable) { /*This is meaningful for config commands*/
    printf("%s() is called ...\n", __FUNCTION__);
 
    int cmd_code =
